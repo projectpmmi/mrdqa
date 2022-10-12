@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+[About](./about.html) | [Software specifications](./specs.html) | [User guide](./userguide.html).
+---------------------------------------------------------------------------------------------
+
+# What is the Malaria Routine Data Quality Assessment (MRDQA) application?
+
+The MRDQA application is a digital implementation of the MEASURE Malaria Routine Data Quality Assessment Tool (M-RDQA) wich is adapted from WHO/MEASURE Evaluation (ME) Data Quality Review Tool (DQR) supervision checklist. A component of the WHO/CDC/Gates Foundation Malaria Surveillance Assessment tool targeting data quality checks below the district level.
+
+The MRDQA application is an adaptation to Android devices to facilitate use and aggregation of data to subnational and national levels. The application is composed of a DHIS2 metadata package and a mobile client application.
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
