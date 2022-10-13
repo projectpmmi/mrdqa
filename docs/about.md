@@ -1,3 +1,9 @@
+---
+layout: default
+---
+[Home](./index.md) | About | [Software specifications](./specs.html) | [User guide](./userguide.html).
+---------------------------------------------------------------------------------------------
+
 # About PMI Measure Malaria
 
 The PMI Measure Malaria project, a five-year project with a ceiling of $35.9 million, is funded by the U.S. President’s Malaria Initiative (PMI) and the United States Agency for International Development (USAID) from June 2019 to June 2024.
