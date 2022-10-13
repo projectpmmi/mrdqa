@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-[Home](./index.md) | About | [specifications](./specs.html) | [User guide](./userguide.html).
+[Home](./index.md) | About | [specifications](./specs.html) | [User guide](./userguide.html)
 
-_ _ _
 
 
 # About PMI Measure Malaria
