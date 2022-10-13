@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[About](./about.html) | [Software specifications](./specs.html) | [User guide](./userguide.html).
+[About](./about.md) | [Software specifications](./specs.html) | [User guide](./userguide.html).
 ---------------------------------------------------------------------------------------------
 
 # What is the Malaria Routine Data Quality Assessment (MRDQA) application?
