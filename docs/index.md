@@ -2,7 +2,8 @@
 layout: default
 ---
 [About](./about.md) | [Software specifications](./specs.html) | [User guide](./userguide.html).
----------------------------------------------------------------------------------------------
+_ _ _
+
 
 # What is the Malaria Routine Data Quality Assessment (MRDQA) application?
 
