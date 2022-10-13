@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[Home](./index.md) | About | [specifications](./specs.md) | [User guide](./userguide.md)
+# [Home](./index.md) | About | [specifications](./specs.md) | [User guide](./userguide.md)
 
 
 

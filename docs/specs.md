@@ -1,3 +1,8 @@
+---
+layout: default
+---
+# [Home](./index.md) | [About](./about.md) | specifications | [User guide](./userguide.md)
+
 
 # MAL - C - 008 Malaria Data Quality Assessment Mobile Application (M-RDQA) Software Requirement Specification (SRS)
 
@@ -46,7 +51,7 @@ The application will be created using Flutter, an open source User Interface sof
 ## 2.3	Specific Requirements
 This section contains all the functional, non-functional and quality requirements of the application. It gives a detailed description of the application and all its features.
 
-## Phase 1 Requirements
+##Phase 1 Requirements
 
 Application Configuration requirements
 Pull in indicators from national DHIS2
