@@ -8,9 +8,9 @@ The development of the MRDQA DHIS2 and Mobile app is lead by a JSI team based in
 
 ## The software development team is composed of:
 
-* Michael Mwebaze
-* Diao Diallo
-* David Boone
-* Romain-Rolland Tohouri
-* Alpha Nsaghurwe
-* Christina Villella
+* **Michael Mwebaze**
+* **Diao Diallo**
+* **David Boone**
+* **Romain-Rolland Tohouri**
+* **Alpha Nsaghurwe**
+* **Christina Villella**
