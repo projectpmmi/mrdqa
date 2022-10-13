@@ -165,32 +165,33 @@ This section contains all the functional, non-functional and quality requirement
     - Screenshot from the Excel file
 ![Table2](/assets/img/table2.png)
 
-Data element completeness
-Instructions to include: Missing data: ask to see the Malaria Register (or OPD register). Count the number of clients in the quarter (month 1 to month 3) with missing information for each of the following data elements in the unit malaria case register. 
-Data elements to be collected
-For each data element selected in the Visit configuration module, collect “Number of cases (rows) with missing data”- numeric value
-“Number of entries missing data in at least one of the data elements above”- numeric value
-Total number of entries for the period- numeric value
-Comment: free text box
-Calculation
-DATAELEMENT_CALC_1: For each data element being checked “Percent cases with missing data” = (number of missing cases / total number of entries for the period).  
-DATAELEMENT_CALC_2: “Percent of entries missing data from at least one of the data elements”= “Number of entries missing data in at least one of the data elements above”/Total number of entries for the period
+    - Data element completeness
+        - Instructions to include: Missing data: ask to see the Malaria Register (or OPD register). Count the number of clients in the quarter (month 1 to month 3) with missing information for each of the following data elements in the unit malaria case register. 
+    - Data elements to be collected
+        - For each data element selected in the Visit configuration module, collect “Number of cases (rows) with missing data”- numeric value
+        - “Number of entries missing data in at least one of the data elements above”- numeric value
+        - Total number of entries for the period- numeric value
+        - Comment: free text box
+    - Calculation
+        - DATAELEMENT_CALC_1: For each data element being checked “Percent cases with missing data” = (number of missing cases / total number of entries for the period).  
+        - DATAELEMENT_CALC_2: “Percent of entries missing data from at least one of the data elements”= “Number of entries missing data in at least one of the data elements above”/Total number of entries for the period
 
 Screenshot of excel (the data entry screen does not need to match this perfectly, it is just to show)
+![Table3](/assets/img/table3.png)
 
 
-Source Document Completeness
-Instructions to include: “Review the following data sources and determine if they are available, up-to-date (values up to the current day/period) and standard (the form prepared and distributed by the program).  (Yes/No)”
-For each source document selected in the visit configuration, collect the following data elements:
-Available: Yes/No
-Up-to-date: Yes/No
-Standard Form: Yes/No
-Comment: free text box
-Calculations
-SOURCEDOC_CALC_1: “Percent of documents available”= number of “yes” available of the documents/number of documents being verified
-SOURCEDOC_CALC_2: “Percent of documents up-to-date”= number of “yes” up-to-date of the documents/number of documents being verified
-SOURCEDOC_CALC_3: “Percent of documents using standard form”= number of “yes” standard form of the documents/number of documents being verified
-Screenshot of the excel
+    - Source Document Completeness
+        - Instructions to include: “Review the following data sources and determine if they are available, up-to-date (values up to the current day/period) and standard (the form prepared and distributed by the program).  (Yes/No)”
+        - For each source document selected in the visit configuration, collect the following data elements:
+            - Available: Yes/No
+            - Up-to-date: Yes/No
+            - Standard Form: Yes/No
+        - Comment: free text box
+        - Calculations
+            - SOURCEDOC_CALC_1: “Percent of documents available”= number of “yes” available of the documents/number of documents being verified
+            - SOURCEDOC_CALC_2: “Percent of documents up-to-date”= number of “yes” up-to-date of the documents/number of documents being verified
+            - SOURCEDOC_CALC_3: “Percent of documents using standard form”= number of “yes” standard form of the documents/number of documents being verified
+            Screenshot of the excel
 
 Data Accuracy Module
 Instructions to include: “Recount value of indicators from the source document (e.g. malaria case register) and compare the value to the one reported by the facility for the selected months”
