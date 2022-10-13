@@ -1,3 +1,23 @@
+---
+layout: default
+---
+[Home](./index.md) | [About](./about.md) | [specifications](./specs.md) | User guide
+
+# Getting started with MRDQA application
+
+This presentation gives you the basics to understand the theory behind the MRDQA tool and the mobile application.
+
+<iframe src="https://mfr.osf.io/render?url=https://osf.io/download/75pqy/?direct%26mode=render"
+    width="100%"
+    scrolling="yes"
+    height="677px"
+    marginheight="0"
+    frameborder="0"
+    allowfullscreen
+    webkitallowfullscreen
+>
+
+
 <style>
     .embed-responsive {
         position:relative;
