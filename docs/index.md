@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[About](./about.md) | [Software specifications](./specs.html) | [User guide](./userguide.html).
+Home | [About](./about.md) | [specifications](./specs.md) | [User guide](./userguide.md).
 
 _ _ _
 
