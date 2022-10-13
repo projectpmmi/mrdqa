@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# [Home](./index.md) | [About](./about.md) | specifications | [User guide](./userguide.md)
+[Home](./index.md) | [About](./about.md) | specifications | [User guide](./userguide.md)
 
 
 # MAL - C - 008 Malaria Data Quality Assessment Mobile Application (M-RDQA) Software Requirement Specification (SRS)
@@ -51,120 +51,119 @@ The application will be created using Flutter, an open source User Interface sof
 ## 2.3	Specific Requirements
 This section contains all the functional, non-functional and quality requirements of the application. It gives a detailed description of the application and all its features.
 
-##Phase 1 Requirements
+## Phase 1 Requirements
 
-Application Configuration requirements
-Pull in indicators from national DHIS2
-Do not need to give the indicators a type
-Ability to select which indicators from DHIS2 will be included in the setup of the application
-Provide default list of source documents
-Client held record
-Malaria case register
-Monthly report
-Laboratory register
-Pharmacy dispensation log
-ACT stock management log
-Malaria surveillance reports
-Bed nets stock management logs
-Inpatient register
-OPD register
-Tally sheet
-Ability to customize the list of source documents
-Pull list of facilities from DHIS2
-Select facilities from DHIS2 to store in store
-Provide default list of Patient Level data elements to verify
-Unique ID
-Visit date 
-Client name
-Age
-Diagnosis type
-Test result (RDT)
-Test result (microscopy)
-Treatment with ACT
-Other treatment
-Ability to customize list of data elements
-Provide default system assessment checklist
-Is there a designated person to enter data and compile reports?
-Is there a designated person to review the quality of compiled data prior to submission to the next level?					
-Does the health facility have written guidelines on data collection and reporting for malaria?
-Does the health facility have a reserve stock of blank registers or reporting forms?							
-Has this health facility experienced any stock out of registers or reporting forms (since last visit)?				
-Is a standardized register being used to record information on malaria cases (not improvised forms)?				
-Can a patient's malaria diagnosis and treatment history be easily found in the facility records?					
-Are data archives properly maintained with historical patient level (registers) and aggregate (monthly report) results?			
-Does the facility maintain accurate demographic information for the catchment area (that is, a record current population and the number of births and deaths)?
-Does the facility have established targets to monitor progress towards goals and objectives for malaria prevention and treatment?
-Does the facility have an up-to-date display (for example, a chart on the wall) of the number of malaria cases diagnosed and treated by reporting period for the year?		
-Is there a chart of disease incidence by month displayed at the facility?
-Ability to customize the system assessment checklist
-Select Default time period for review: 1 month or last 3 months
-*maybe* Remote database to store country configurations; the other teams will need to import this configuration file
-
-
-Supervisor/user functionality requirements
-Visit planning screen
-Select date of visit
-Include ability to choose facility to be visited 
-Choose verifications to perform for each facility to be visited 
-Accuracy checks 
-Completeness of data sources
-Completeness of reporting
-Completeness of data elements
-Timeliness of submission of monthly report
-Cross checks
-Consistency checks
-Qualitative system assessment checklist
-Visit Configuration based on verifications chosen
-Accuracy checks 
-Select indicators (which were pulled from DHIS2)
-Time period to be verified (1 month or of last 3 months based on the configuration set)  
-Completeness of data sources
-Select data sources
-Completeness of reporting
-No choice
-Completeness of data elements
-Instructions: “This data element check is done on an OPD register or malaria case register.”
-Select data elements
-Timeliness of submission of monthly report 
-No choice
-Cross checks
-Instructions: “Data sources are compared to determine the level of consistency and reliability between data sources with the same or similar information.Cross-checks are techniques to corroborate results found in one data source with data from a different data source. Select the source documents you will use for each of the 3 cross-checks.”
-Cross Check A- Document 1 and Document 2
-Cross Check B- Document 1 and Document 2
-Cross Check C- Document 1 and Document 2
-Instructions for Cross-Check C: “This Cross-Check is the comparison of service delivery volume between the service delivery information system (malaria or health programs) and the commodities tracking information system for indicators that use commodities, such as drugs or test kits (e.g., logistics management information system). Please choose one source document for each of these categories.”
-Consistency checks
-Selecting indicator
-Qualitative system assessment checklist
-No choice
-Verification modules
-Application should display whichever verification modules the user selected in the Visit Configuration module
-Each module should be associated with:
-Facility name and ID
-Date of supervision
-Reporting period verified
-Supervision team lead (user conducting the verification)
-Completeness of Malaria monthly report
-Instructions to include: “Select the most recent completed and submitted monthly Malaria (or HMIS) facility report.  Calculate the number of cells expected to be complete on the monthly report (exclude cells for services not offered by the facility).  Count the number of cells that are complete (blank, not zero) and calculate the percentage completeness for the monthly report.”
-Data elements for collection:
-Expected cells
-Completed cells
-Comment: free text box
-Calculation for the verification
-COMPLETENESS_CALC_1: Percent complete for monthly report (completed cells / expected cells)
-Screenshot from the Excel file:
+**Application Configuration requirements**
+- Pull in indicators from national DHIS2
+    - Do not need to give the indicators a type
+- Ability to select which indicators from DHIS2 will be included in the setup of the application
+- Provide default list of source documents
+    - Client held record
+    - Malaria case register
+    - Monthly report
+    - Laboratory register
+    - Pharmacy dispensation log
+    - ACT stock management log
+    - Malaria surveillance reports
+    - Bed nets stock management logs
+    - Inpatient register
+    - OPD register
+    - Tally sheet
+- Ability to customize the list of source documents
+- Pull list of facilities from DHIS2
+- Select facilities from DHIS2 to store in store
+- Provide default list of Patient Level data elements to verify
+    - Unique ID
+    - Visit date 
+    - Client name
+    - Age
+    - Diagnosis type
+    - Test result (RDT)
+    - Test result (microscopy)
+    - Treatment with ACT
+    - Other treatment
+- Ability to customize list of data elements
+- Provide default system assessment checklist
+    - Is there a designated person to enter data and compile reports?
+    - Is there a designated person to review the quality of compiled data prior to submission to the next level?					
+    - Does the health facility have written guidelines on data collection and reporting for malaria?
+    - Does the health facility have a reserve stock of blank registers or reporting forms?							
+    - Has this health facility experienced any stock out of registers or reporting forms (since last visit)?				
+    - Is a standardized register being used to record information on malaria cases (not improvised forms)?				
+    - Can a patient's malaria diagnosis and treatment history be easily found in the facility records?					
+    - Are data archives properly maintained with historical patient level (registers) and aggregate (monthly report) results?			
+    - Does the facility maintain accurate demographic information for the catchment area (that is, a record current population and the number of births and deaths)?
+    - Does the facility have established targets to monitor progress towards goals and objectives for malaria prevention and treatment?
+    - Does the facility have an up-to-date display (for example, a chart on the wall) of the number of malaria cases diagnosed and treated by reporting period for the year?		
+    - Is there a chart of disease incidence by month displayed at the facility?
+- Ability to customize the system assessment checklist
+- Select Default time period for review: 1 month or last 3 months
+- **maybe** Remote database to store country configurations; the other teams will need to import this configuration file
 
 
+**Supervisor/user functionality requirements**
+- Visit planning screen
+    - Select date of visit
+    - Include ability to choose facility to be visited 
+    - Choose verifications to perform for each facility to be visited 
+        - Accuracy checks 
+        - Completeness of data sources
+        - Completeness of reporting
+        - Completeness of data elements
+        - Timeliness of submission of monthly report
+        - Cross checks
+        - Consistency checks
+        - Qualitative system assessment checklist
+- Visit Configuration based on verifications chosen
+    - Accuracy checks 
+        - Select indicators (which were pulled from DHIS2)
+        - Time period to be verified (1 month or of last 3 months based on the configuration set)  
+    - Completeness of data sources
+        - Select data sources
+    - Completeness of reporting
+        - No choice
+    - Completeness of data elements
+        - Instructions: “This data element check is done on an OPD register or malaria case register.”
+        - Select data elements
+    - Timeliness of submission of monthly report 
+        - No choice
+    - Cross checks
+        - Instructions: “Data sources are compared to determine the level of consistency and reliability between data sources with the same or similar information.Cross-checks are techniques to corroborate results found in one data source with data from a different data source. Select the source documents you will use for each of the 3 cross-checks.”
+        - Cross Check A- Document 1 and Document 2
+        - Cross Check B- Document 1 and Document 2
+        - Cross Check C- Document 1 and Document 2
+            - Instructions for Cross-Check C: “This Cross-Check is the comparison of service delivery volume between the service delivery information system (malaria or health programs) and the commodities tracking information system for indicators that use commodities, such as drugs or test kits (e.g., logistics management information system). Please choose one source document for each of these categories.”
+    - Consistency checks
+        - Selecting indicator
+    - Qualitative system assessment checklist
+        - No choice
+    - Verification modules
+        - Application should display whichever verification modules the user selected in the Visit Configuration module
+    - Each module should be associated with:
+        - Facility name and ID
+        - Date of supervision
+        - Reporting period verified
+        - Supervision team lead (user conducting the verification)
+    - Completeness of Malaria monthly report
+        - Instructions to include: “Select the most recent completed and submitted monthly Malaria (or HMIS) facility report.  Calculate the number of cells expected to be complete on the monthly report (exclude cells for services not offered by the facility).  Count the number of cells that are complete (blank, not zero) and calculate the percentage completeness for the monthly report.”
+        - Data elements for collection:
+            - Expected cells
+            - Completed cells
+            - Comment: free text box
+        - Calculation for the verification
+            - COMPLETENESS_CALC_1: Percent complete for monthly report (completed cells / expected cells)
+        - Screenshot from the Excel file:
+![Table1](/assets/img/table1.png)
 
-Timeliness of Submission of Monthly Report
-Instructions to include: Review the monthly reports from the past three months at the facility and in the HMIS database.  Determine if the reports were submitted by the deadline of reporting.
-Data elements to be captured: 
-Display the last 3 months from the date (from the visit configuration). For each month being verified, there is a data element “Submitted by Deadline” with answer choices Yes or No
-Comment: free text box
-Calculation for the verification:
-TIMELINESS_CALC_1: Count the number of “yes” from the months being verified and divide by number months with the field complete (number of yes/number of months field completed)
-Screenshot from the Excel file
-
+- Timeliness of Submission of Monthly Report
+    - Instructions to include: Review the monthly reports from the past three months at the facility and in the HMIS database.  Determine if the reports were submitted by the deadline of reporting.
+    - Data elements to be captured: 
+        - Display the last 3 months from the date (from the visit configuration). For each month being verified, there is a data element “Submitted by Deadline” with answer choices Yes or No
+        - Comment: free text box
+    - Calculation for the verification:
+        - TIMELINESS_CALC_1: Count the number of “yes” from the months being verified and divide by number months with the field complete (number of yes/number of months field completed)
+    - Screenshot from the Excel file
+![Table2](/assets/img/table2.png)
 
 Data element completeness
 Instructions to include: Missing data: ask to see the Malaria Register (or OPD register). Count the number of clients in the quarter (month 1 to month 3) with missing information for each of the following data elements in the unit malaria case register. 
