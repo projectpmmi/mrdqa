@@ -4,7 +4,7 @@ layout: default
 Home | [About](./about.md) | [specifications](./specs.md) | [User guide](./userguide.md)
 
 
-# [Classé finaliste à la Compétition des apps Web et Android à la conférence annuelle DHIS2 de 2022](https://community.dhis2.org/t/announcing-the-finalists-of-the-dhis2-web-android-app-competition-2022/47992).
+# [Finalist of the 2022 DHIS2 annual conference Web and Android Apps competition](https://community.dhis2.org/t/announcing-the-finalists-of-the-dhis2-web-android-app-competition-2022/47992).
 
 * * *
 
