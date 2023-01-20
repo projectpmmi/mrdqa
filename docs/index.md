@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Home | [About](./about.md) | [specifications](./specs.md) | [User guide](./userguide.md)
+Home | [About](./about.md) | [specifications](./specs.md) | [User guide](./userguide.md) | [Community](https://community.dhis2.org/t/malaria-routine-data-quality-assessment-app/48146)
 
 
 # [Finalist of the 2022 DHIS2 annual conference Web and Android Apps competition](https://community.dhis2.org/t/announcing-the-finalists-of-the-dhis2-web-android-app-competition-2022/47992).
